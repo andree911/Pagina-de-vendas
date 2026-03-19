@@ -3,6 +3,9 @@ body {
     align-items: center;
     text-align: center;
     background-color: #2C5D7C ;
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
 }
 ul {
     list-style: none;
@@ -12,22 +15,22 @@ ul {
 }
 .principal-title {
     margin-top: 10px;
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-family: 'Google Sans', sans-serif;
 }
 .sale-box {
     margin-top: 50px;
     margin-bottom: 40px;
     font-size: 24px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 .principal-phrase {
     margin-top: 40px;
-    font-size: 24px;
-    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-family: 'Noto Sans', sans-serif;
 }
 img {
-    width: 65%;
+    width: 100%;
     height: auto;
     max-width: 100%;
 }
@@ -35,8 +38,7 @@ img {
     margin-top: 40px;
     margin-bottom: 25px;
     font-size: 32px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-family: 'Google Sans', sans-serif;
 }
 ul li {
     line-height: 1;
@@ -46,7 +48,7 @@ ul li {
     border-radius: 5px;         
     width: 400px;
     font-size: 18px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 dl {
     list-style: none;
@@ -57,7 +59,7 @@ dt, dd {
     margin-bottom: 0px;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 .feedback {
     margin-top: 40px;
@@ -69,13 +71,13 @@ dt, dd {
     background-color: #f2f2f2;
     border-radius: 5px;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 footer {
     margin-top: 10px;
     font-size: 16px;
     text-align: right;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     
 }
 .product-link {
@@ -88,7 +90,7 @@ footer {
     border-radius: 5px;
     font-size: 22px;
     margin-bottom: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Google Sans', sans-serif;
 }
 dt {
     font-weight: bold;
@@ -124,11 +126,32 @@ html {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 30px;
     margin-top: 15px;
     margin-bottom: 40px;
 }
 .product-link {
     scroll-margin-top: 300px;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 16px;
+    }
+    body {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .product-button, .product-link {
+        width: 100%;
+        padding: 14px;
+        font-size: 18px;
+    }
 }
