@@ -15,12 +15,12 @@ ul {
 }
 .principal-title {
     margin-top: 10px;
-    font-size: 48px;
+    font-size: 40px;
     font-family: 'Google Sans', sans-serif;
 }
 .sale-box {
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 24px;
     font-family: 'Inter', sans-serif;
 }
@@ -31,6 +31,9 @@ ul {
 }
 img {
     width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0,0.10);
+    display: block;
     height: auto;
     max-width: 100%;
 }
@@ -129,16 +132,20 @@ html {
     font-size: 22px;
     margin-bottom: 30px;
     margin-top: 15px;
-    margin-bottom: 40px;
+    margin-right: auto;
 }
 .product-link {
     scroll-margin-top: 300px;
 }
 @media (max-width: 768px) {
-    h1 {
+    .principal-title {
         font-size: 28px;
+        margin-top: 20px;
     }
-    h2 {
+    .principal-phrase{
+        margin-top: 30px;
+    }
+    .second-title {
         font-size: 22px;
     }
     p {
@@ -165,9 +172,12 @@ html {
         overflow-x: hidden;
     }
     .product-button, .product-link {
-        width: 100%;
         padding: 14px;
         font-size: 18px;
+        width: 90%;
+        max-width: 320px;
+        margin-inline: auto;
+        text-align: center;
     }
     .central-block {
         max-width: 600px;
@@ -175,5 +185,8 @@ html {
         margin: 0 auto;
         padding: 0 16px;
         box-sizing: border-box;
+        margin-top: 24px;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 }
