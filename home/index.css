@@ -1,0 +1,134 @@
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2C5D7C ;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.principal-title {
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.sale-box {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+}
+.principal-phrase {
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+}
+img {
+    width: 65%;
+    height: auto;
+    max-width: 100%;
+}
+.second-title {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+ul li {
+    line-height: 1;
+    background-color: #f2f2f2; 
+    padding: 10px 15px;      
+    margin-bottom: 10px;      
+    border-radius: 5px;         
+    width: 400px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+dl {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+dt, dd {
+    margin-bottom: 0px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+.feedback {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+footer {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: right;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.product-link {
+    display: inline-block;
+    margin: 50px 0;
+    padding: 10px 20px;
+    background-color: #2e6a92;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+dt {
+    font-weight: bold;
+    font-size: 20px;
+}
+dd {
+    line-height: 1;
+    background-color: #f2f2f2; 
+    padding: 10px 15px;      
+    margin-bottom: 10px;      
+    border-radius: 5px;         
+    width: 400px;
+    font-size: 18px;
+    margin-left: 0;
+}
+.central-block {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+.product-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2e6a92;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.product-link {
+    scroll-margin-top: 300px;
+}
