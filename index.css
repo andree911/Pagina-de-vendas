@@ -22,12 +22,12 @@ ul {
     margin-top: 50px;
     margin-bottom: 40px;
     font-size: 24px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 .principal-phrase {
     margin-top: 40px;
     font-size: 28px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 img {
     width: 100%;
@@ -38,7 +38,7 @@ img {
     margin-top: 40px;
     margin-bottom: 25px;
     font-size: 32px;
-    font-family: 'Google Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 ul li {
     line-height: 1;
@@ -48,7 +48,7 @@ ul li {
     border-radius: 5px;         
     width: 400px;
     font-size: 18px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 dl {
     list-style: none;
@@ -59,7 +59,7 @@ dt, dd {
     margin-bottom: 0px;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 .feedback {
     margin-top: 40px;
@@ -71,13 +71,13 @@ dt, dd {
     background-color: #f2f2f2;
     border-radius: 5px;
     text-align: center;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 footer {
     margin-top: 10px;
     font-size: 16px;
     text-align: right;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     
 }
 .product-link {
@@ -144,10 +144,25 @@ html {
     p {
         font-size: 16px;
     }
+    ul li {
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px 14px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    dd {
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 12px;
+    }
     body {
         flex-direction: column;
         text-align: center;
         gap: 20px;
+        overflow-x: hidden;
     }
     .product-button, .product-link {
         width: 100%;
